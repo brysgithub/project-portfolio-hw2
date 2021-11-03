@@ -1,3 +1,9 @@
 *{
     font-family: Arial, Helvetica, sans-serifS
 }
+p{
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
