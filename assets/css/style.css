@@ -2,8 +2,10 @@
     font-family: Arial, Helvetica, sans-serifS
 }
 p{
+    font-size: 400px;
+    font-weight: bolder;
+}
+div {
     display: flex;
     justify-content: center;
-    margin-top: 50%;
-    margin-bottom: 50%;
 }
