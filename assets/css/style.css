@@ -4,6 +4,8 @@
 p{
     font-size: 400px;
     font-weight: bolder;
+    margin: 0px;
+    margin-top: 50%;
 }
 div {
     display: flex;
