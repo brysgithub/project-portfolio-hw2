@@ -1,13 +1,10 @@
-*{
-    font-family: Arial, Helvetica, sans-serifS
+:root {
+    --color-background: #f1dede;
+    --color-primary: #bbacc1;
+    --color-secondary: #80727b;
+    --color-tertiary: #909580;
 }
-p{
-    font-size: 400px;
-    font-weight: bolder;
-    margin: 0px;
-    margin-top: 50%;
-}
-div {
-    display: flex;
-    justify-content: center;
+
+* {
+
 }
