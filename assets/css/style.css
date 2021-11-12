@@ -13,29 +13,92 @@
 /* header and nav */
 header {
     display: flex;
+    position: sticky;
     background-color: var(--color-primary);
     justify-content: space-between;
     height: 100px;
     width: 100%;
     align-items: center;
-    border-bottom: solid var(--color-secondary) 10px;
+    border-bottom: solid var(--color-tertiary) 10px;
 }
 
 .name-bar {
-    background-color: var(--color-tertiary);
-    font-size: 50px;
+    background-color: var(--color-secondary);
+    font-size: 60px;
     font-weight: bolder;
 }
 
 .nav-bar {
-    
+    justify-items: center;
+    align-content: space-between;
 }
 
 /* link appearance */
 a:link {
     text-decoration: none;
+    color: var(--color-secondary);
 }
 
 a:visited {
     text-decoration: none;
+    color: var(--color-secondary);
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--color-tertiary);
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/* hero image */
+.hero-img {
+    margin-top: -170px;
+    width: 100%;
+}
+
+/* section headers */
+h2 {
+    font-size: 40px;
+    border-right: solid black;
+}
+
+/* bio box */
+.bio {
+    display: flex;
+}
+
+.label-box {
+
+}
+
+.bio-box {
+
+}
+
+/* work cards */
+.work {
+    display: flex;
+}
+
+.top-card {
+
+}
+
+.bottom-card {
+
+}
+
+/* contact me */
+.contact-me {
+    display: flex;
+}
+
+/* footer */
+.footer-bar {
+    display: flex;
+    height: 60px;
+    background-color: var(--color-primary);
 }
