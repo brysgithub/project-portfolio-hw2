@@ -23,14 +23,12 @@ header {
 }
 
 .name-bar {
-    background-color: var(--color-secondary);
     font-size: 60px;
     font-weight: bolder;
 }
 
 .nav-bar {
-    justify-items: center;
-    align-content: space-between;
+    list-style: none;
 }
 
 /* link appearance */
@@ -69,6 +67,7 @@ h2 {
 .label-box {
     width: 40%;
     justify-items: flex-start;
+    margin: auto;
 }
 
 /* bio box */
@@ -84,19 +83,29 @@ h2 {
 .work {
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-end;
+    flex: 1 1 auto;
 }
 
 .work-box {
-    width: 60%;
+    
 }
+
 .top-card {
 
 }
 
-.bottom-card {
-
+.top-img {
+    
 }
 
+.bottom-card {
+    
+}
+
+.bottom-img {
+    
+}
 /* contact me */
 .contact-me {
     display: flex;
