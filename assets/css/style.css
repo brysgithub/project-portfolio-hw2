@@ -1,8 +1,5 @@
 /* ----- needs work ------ */
-/* nav bar */
 /* work section */
-/* contact bar */
-/* push conent over banner, banner opacity/ gradient */
 /* integrate @media responsive elements */
 
 /* variables and universal */
@@ -75,11 +72,25 @@ a:active {
     text-decoration: none;
 }
 
+/* avatar image */
+/* .avatar-box { */
+    /* display: flex; ( !!! breaks everything !!! ) */
+/* } */
+
+.avatar {
+    height: 30vw;
+    border-radius: 2vw;
+    margin-left: 2rem;
+    margin-top: -100rem;
+    border: black solid 2px;
+    box-shadow: 10px 10px 10px black;
+   
+}
+
 /* hero image */
 .hero-img {
-    margin-top: -400px;
+    margin-top: -30vh;
     width: 100%;
-    z-index: -1;
 }
 
 /* main */
