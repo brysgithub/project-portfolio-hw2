@@ -114,7 +114,6 @@ h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
 }
 
 .border-box {
@@ -125,11 +124,12 @@ h2 {
 
 .top-card {
     /* width: 60%;
-    justify-content: flex-end; */
+    height: auto; */
+    justify-content: flex-end;
 }
 
 .top-img {
-    /* width: 80%; */
+    /* width: auto; */
 }
 
 .bottom-card {
@@ -146,20 +146,21 @@ h2 {
 }
 
 .contact-box {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border-left: solid black;
     width: 60%;
 }
 
 .contact-list {
     display: flex;
     list-style: none;
-    align-items: center;
-    border-left: solid black;
 }
 
 .contact-a {
-    display: inline-flex;
-    margin-right: 30px;
-    margin-left: 2rem;
+    margin-right: 15px;
+    margin-left: 1rem;
     font-weight: bolder;
 }
 
