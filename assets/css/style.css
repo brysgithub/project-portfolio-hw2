@@ -1,3 +1,10 @@
+/* ----- needs work ------ */
+/* nav bar */
+/* work section */
+/* contact bar */
+/* push conent over banner, banner opacity/ gradient */
+/* integrate @media responsive elements */
+
 /* variables and universal */
 :root {
     --color-background: #f1dede;
@@ -20,11 +27,17 @@ header {
     width: 100%;
     align-items: center;
     border-bottom: solid var(--color-tertiary) 10px;
+    opacity: 0.8;
 }
 
 .name-bar {
     font-size: 60px;
     font-weight: bolder;
+    flex: 0 1 auto;
+}
+
+h1 {
+    opacity: 1;
 }
 
 .nav-bar {
@@ -53,8 +66,14 @@ a:active {
 
 /* hero image */
 .hero-img {
-    margin-top: -170px;
+    margin-top: -400px;
     width: 100%;
+    z-index: -1;
+}
+
+/* main */
+main {
+    margin-top: -100px;
 }
 
 /* section headers */
@@ -67,7 +86,8 @@ h2 {
 .label-box {
     width: 40%;
     justify-items: flex-start;
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 /* bio box */
@@ -77,34 +97,35 @@ h2 {
 
 .bio-box {
     width: 60%;
+    background-color: var(--color-background);
+    line-height: 1.5;
 }
 
 /* work cards */
 .work {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
-    flex: 1 1 auto;
-}
-
-.work-box {
-    
 }
 
 .top-card {
-
+    width: 60%;
 }
 
 .top-img {
-    
+    flex: 1 0 auto;
+    margin: 50px;
+    width: 80%;
 }
 
 .bottom-card {
-    
+    width: 60%;
 }
 
 .bottom-img {
-    
+    flex: 1 0 auto;
+    width: 40%;
 }
 /* contact me */
 .contact-me {
@@ -115,8 +136,14 @@ h2 {
     width: 60%;
 }
 
+.contact-list {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
 /* footer */
-.footer-bar {
+footer {
     display: flex;
     justify-content: center;
     height: 60px;
