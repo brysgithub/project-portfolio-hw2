@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=S, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/android-chrome-512x512.png">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -17,18 +17,17 @@
         <nav class="nav-bar">
             <ul>
                 <!-- TODO: nav to section -->
-                <li>
-                    <a href="#bio">Bio</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact me</a>
-                </li>
+                <li class="nav-a"><a href="#bio">Bio</a></li>
+                <li class="nav-a"><a href="#work">Work</a></li>
+                <li class="nav-a"><a href="#contact-me">Contact me</a></li>
             </ul>
         </nav>
     </header>
+
+    <!-- avatar img -->
+    <div>
+        <img src="#" alt="Avatar image">
+    </div>
 
     <!-- banner img -->
         <div>
@@ -41,19 +40,25 @@
         <!-- Bio -->
         <section class="bio">
             <h2 class="label-box">Bio</h2>
-            <p class="bio-box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sed fugit, laborum deleniti fuga nulla deserunt, alias doloremque, suscipit eum commodi! Dolorem earum, dolores libero accusantium eius vitae suscipit rem.</p>
+            <div class="bio-box">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi ab, magnam dolore quas voluptatem distinctio unde earum optio. Nisi consequuntur repellendus nemo dolores non? Voluptas velit ex commodi saepe dolorem.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sed fugit, laborum deleniti fuga nulla deserunt, alias doloremque, suscipit eum commodi! Dolorem earum, dolores libero accusantium eius vitae suscipit rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, illum explicabo atque quae praesentium eveniet ipsam ut natus cupiditate molestias quod voluptatem nisi velit consequatur deleniti rem sapiente modi tempore? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa molestias consequatur non? Ducimus ipsum voluptas consectetur est modi dolorem aut placeat. Nesciunt ducimus voluptates facere magni minus molestiae excepturi tempora?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat non, earum facere veritatis dolorum quod tempora fugit asperiores illo? Recusandae sunt rem praesentium officia commodi velit, excepturi qui obcaecati possimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque recusandae exercitationem ipsum eaque deleniti soluta voluptatem velit atque quasi provident nisi minus eveniet sunt, dolorem enim odit optio! Quod, explicabo.</p>
+            </div>
         </section>
 
         <!-- work -->
         <section class="work">
-             <h2 class="label-box">Work</h2>
+        <h2 class="label-box">Work</h2>
             <!-- top card -->
+        <div class="border-box">
             <div class="top-card">
                 <div>
                     <img class="top-img" src="./assets/images/card-img-1.jpg" alt="EX ALT">
                 </div>
                 <div>
                     <h3>TEXT TITLE</h3>
+                    <h4>note</h4>
                 </div>
             </div>
             <!-- bottom cards -->
@@ -63,6 +68,7 @@
                 </div>
                 <div>
                     <h3>TEXT TITLE</h3>
+                    <h4>note</h4>
                 </div>
             </div>
             <div class="bottom-card">
@@ -71,23 +77,37 @@
                 </div>
                 <div>
                     <h3>TEXT TITLE</h3>
+                    <h4>note</h4>
                 </div>
             </div>
+            <div class="bottom-card">
+                <div>
+                    <img class="bottom-img" src="./assets/images/card-img-4.jpg" alt="EX ALT">
+                </div>
+                <div>
+                    <h3>TEXT TITLE</h3>
+                    <h4>note</h4>
+                </div>
+            </div>
+            <div class="bottom-card">
+                <div>
+                    <img class="bottom-img" src="./assets/images/card-img-5.jpg" alt="EX ALT">
+                </div>
+                <div>
+                    <h3>TEXT TITLE</h3>
+                    <h4>note</h4>
+                </div>
+            </div>
+        </div>
         </section>
 
         <!-- contact me -->
         <section class="contact-me">
             <h2 class="label-box">Contact me</h2>
             <ul class="contact-list">
-                <li>
-                    <a href="#">(555) 555-5555</a>
-                </li>
-                <li>
-                    <a href="#">bschenck@email.com</a>
-                </li>
-                <li>
-                    <a href="https://github.com/brysgithub/brysgithub">github</a>
-                </li>
+                <li class="contact-a"><a href="#">(555) 555-5555</a></li>
+                <li class="contact-a"><a href="#">bschenck@email.com</a></li>
+                <li class="contact-a"><a href="https://github.com/brysgithub/brysgithub">github</a></li>
             </ul>
         </section>
 

@@ -11,6 +11,7 @@
     --color-primary: #909580;
     --color-secondary: #80727b;
     --color-tertiary: #bbacc1;
+    --color-text: #333333;
 }
 
 * {
@@ -38,21 +39,31 @@ header {
 
 h1 {
     opacity: 1;
+    color: var(--color-text);
 }
 
 .nav-bar {
     list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-a {
+    display: inline-flex;
+    margin-right: 30px;
+    font-weight: bolder;
+    font-size: 30px;
 }
 
 /* link appearance */
 a:link {
     text-decoration: none;
-    color: var(--color-secondary);
+    color: var(--color-text);
 }
 
 a:visited {
     text-decoration: none;
-    color: var(--color-secondary);
+    color: var(--color-text);
 }
 
 a:hover {
@@ -72,15 +83,11 @@ a:active {
 }
 
 /* main */
-main {
-    margin-top: -100px;
-}
 
 /* section headers */
 h2 {
     font-size: 40px;
     font-weight: bolder;
-    border-right: solid black;
 }
 
 .label-box {
@@ -99,6 +106,7 @@ h2 {
     width: 60%;
     background-color: var(--color-background);
     line-height: 1.5;
+    border-left: solid black;
 }
 
 /* work cards */
@@ -106,27 +114,32 @@ h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: flex-start;
+}
+
+.border-box {
+    display: flex;
+    border-left: solid black;
+    width: 60%;
 }
 
 .top-card {
-    width: 60%;
+    /* width: 60%;
+    justify-content: flex-end; */
 }
 
 .top-img {
-    flex: 1 0 auto;
-    margin: 50px;
-    width: 80%;
+    /* width: 80%; */
 }
 
 .bottom-card {
-    width: 60%;
+    /* width: 60%; */
 }
 
 .bottom-img {
-    flex: 1 0 auto;
-    width: 40%;
+    /* width: 40%; */
 }
+
 /* contact me */
 .contact-me {
     display: flex;
@@ -138,8 +151,16 @@ h2 {
 
 .contact-list {
     display: flex;
-    align-items: stretch;
-    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    border-left: solid black;
+}
+
+.contact-a {
+    display: inline-flex;
+    margin-right: 30px;
+    margin-left: 2rem;
+    font-weight: bolder;
 }
 
 /* footer */
