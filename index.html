@@ -1,208 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="assets/images/android-chrome-512x512.png" />
     <!-- <link rel="stylesheet" href="./assets/css/reset.css" /> -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <!-- <link rel="stylesheet" href="./assets/css/style.css" /> -->
     <title>Bryan's Portfolio</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- header and nav -->
-    <!-- <header>
-        <h1 class="name-bar">Bryan Schenck</h1>
-        <nav class="nav-bar">
-            <ul>
-                <!-- TODO: nav to section -->
-    <!-- <li class="nav-a"><a href="#bio">Bio</a></li>
-                <li class="nav-a"><a href="#work">Work</a></li>
-                <li class="nav-a"><a href="#contact-me">Contact me</a></li>
-            </ul>
-        </nav>
-    </header> -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Bryan Schenck</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="d-flex flex-row-reverse collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Bio</a>
-              <a class="nav-link" href="#">Work</a>
-              <a class="nav-link" href="#">Contact Me</a>
+            <a class="navbar-brand" href="#">Bryan Schenck</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="d-flex flex-row-reverse collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Bio</a>
+                    <a class="nav-link" href="#">Work</a>
+                    <a class="nav-link" href="#">Contact Me</a>
+                </div>
             </div>
-          </div>
         </div>
     </nav>
 
     <!-- banner img -->
-    <div>
-      <img
-        class="hero-img"
-        src="./assets/images/mtrainier-hero.jpg"
-        alt="banner image goes here"
-      />
+    <div class= "container">
+        <img class="img-fluid" src="./assets/images/mtrainier-hero.jpg" alt="banner image goes here" />
     </div>
 
     <!-- avatar img -->
-    <div class="avatar-flex">
-      <img class="avatar" src="./assets/images/avatar.jpg" alt="Avatar image" />
+    <div class="container">
+        <img class="img-fluid" src="./assets/images/avatar.jpg" alt="Avatar image" />
     </div>
 
     <!-- main -->
     <main>
-      <!-- Bio -->
-      <section class="bio">
-        <h2 class="label-box">Bio</h2>
-        <div class="bio-box">
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
-            ab, magnam dolore quas voluptatem distinctio unde earum optio. Nisi
-            consequuntur repellendus nemo dolores non? Voluptas velit ex commodi
-            saepe dolorem.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sed
-            fugit, laborum deleniti fuga nulla deserunt, alias doloremque,
-            suscipit eum commodi! Dolorem earum, dolores libero accusantium eius
-            vitae suscipit rem. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Ex, illum explicabo atque quae praesentium eveniet
-            ipsam ut natus cupiditate molestias quod voluptatem nisi velit
-            consequatur deleniti rem sapiente modi tempore? Lorem, ipsum dolor
-            sit amet consectetur adipisicing elit. Ipsa molestias consequatur
-            non? Ducimus ipsum voluptas consectetur est modi dolorem aut
-            placeat. Nesciunt ducimus voluptates facere magni minus molestiae
-            excepturi tempora?
-          </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
-            non, earum facere veritatis dolorum quod tempora fugit asperiores
-            illo? Recusandae sunt rem praesentium officia commodi velit,
-            excepturi qui obcaecati possimus! Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Doloremque recusandae exercitationem
-            ipsum eaque deleniti soluta voluptatem velit atque quasi provident
-            nisi minus eveniet sunt, dolorem enim odit optio! Quod, explicabo.
-          </p>
-        </div>
-      </section>
+        <!-- Bio -->
+        <section class="container d-flex align-items-start container-fluid">
+            <div class= "col-4">
+                <h2>Bio</h2>
+            </div>
+            <div class="container col-8">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
+                    ab, magnam dolore quas voluptatem distinctio unde earum optio. Nisi
+                    consequuntur repellendus nemo dolores non? Voluptas velit ex commodi
+                    saepe dolorem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sed
+                    fugit, laborum deleniti fuga nulla deserunt, alias doloremque,
+                    suscipit eum commodi! Dolorem earum, dolores libero accusantium eius
+                    vitae suscipit rem. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Ex, illum explicabo atque quae praesentium eveniet
+                    ipsam ut natus cupiditate molestias quod voluptatem nisi velit
+                    consequatur deleniti rem sapiente modi tempore? Lorem, ipsum dolor
+                    sit amet consectetur adipisicing elit. Ipsa molestias consequatur
+                    non? Ducimus ipsum voluptas consectetur est modi dolorem aut
+                    placeat. Nesciunt ducimus voluptates facere magni minus molestiae
+                    excepturi tempora?
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+                    non, earum facere veritatis dolorum quod tempora fugit asperiores
+                    illo? Recusandae sunt rem praesentium officia commodi velit,
+                    excepturi qui obcaecati possimus! Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Doloremque recusandae exercitationem
+                    ipsum eaque deleniti soluta voluptatem velit atque quasi provident
+                    nisi minus eveniet sunt, dolorem enim odit optio! Quod, explicabo.
+                </p>
+            </div>
+        </section>
 
-      <!-- work -->
-      <!-- <section class="work">
-        <h2 class="label-box">Work</h2> -->
-        <!-- top card -->
-        <!-- <div class="border-box">
-          <div class="top-card">
-            <div>
-              <img
-                class="top-img"
-                src="./assets/images/card-img-1.jpg"
-                alt="EX ALT"
-              />
-            </div>
-            <div>
-              <h3>TEXT TITLE</h3>
-              <h4>note</h4>
-            </div>
-          </div> -->
-          <!-- bottom cards -->
-          <!-- <div class="bottom-card">
-            <div>
-              <img
-                class="bottom-img"
-                src="./assets/images/card-img-2.jpg"
-                alt="EX ALT"
-              />
-            </div>
-            <div>
-              <h3>TEXT TITLE</h3>
-              <h4>note</h4>
-            </div>
-          </div>
-          <div class="bottom-card">
-            <div>
-              <img
-                class="bottom-img"
-                src="./assets/images/card-img-3.jpg"
-                alt="EX ALT"
-              />
-            </div>
-            <div>
-              <h3>TEXT TITLE</h3>
-              <h4>note</h4>
-            </div>
-          </div>
-          <div class="bottom-card">
-            <div>
-              <img
-                class="bottom-img"
-                src="./assets/images/card-img-4.jpg"
-                alt="EX ALT"
-              />
-            </div>
-            <div>
-              <h3>TEXT TITLE</h3>
-              <h4>note</h4>
-            </div>
-          </div>
-          <div class="bottom-card">
-            <div>
-              <img
-                class="bottom-img"
-                src="./assets/images/card-img-5.jpg"
-                alt="EX ALT"
-              />
-            </div>
-            <div>
-              <h3>TEXT TITLE</h3>
-              <h4>note</h4>
-            </div>
-          </div>
-        </div>
-      </section> -->
+        <!-- work -->
 
-      <!-- Top Card -->
-      <div class="d-flex flex-row-reverse card bg-dark text-white">
-        <img src="./assets/images/card-img-1.jpg" class="card-img" alt="...">
-        <div class="card-img-overlay">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text">Last updated 3 mins ago</p>
-        </div>
-      </div>
-      <!-- Bottom Cards (rows of 2) -->
+        <!-- Top Card -->
+        <section class="container d-flex align-items-start container-fluid">
+            <div class="col-4">
+                <h2>Work</h2>
+            </div>
+            <div class="container-fluid col-8">
+                <div class="col-12 d-flex flex-row-reverse card bg-dark text-white">
+                    <img src="./assets/images/card-img-1.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
+                    </div>
+                </div>
 
-      <!-- contact me -->
-      <section class="contact-me">
-        <h2 class="label-box">Contact me</h2>
-        <div class="contact-box">
-          <ul class="contact-list">
-            <li class="contact-a"><a href="#">(555) 555-5555</a></li>
-            <li class="contact-a"><a href="#">bryan.types.code@gmail.com</a></li>
-            <li class="contact-a">
-              <a href="https://github.com/brysgithub/brysgithub">github</a>
-            </li>
-          </ul>
-        </div>
-      </section>
+                <!-- Bottom Cards (rows of 2 lg column sm) -->
+                <div class="container-fluid d-flex flex-wrap">
+                    <div class="col-6 d-flex flex-row-reverse card bg-dark text-white">
+                        <img src="./assets/images/card-img-2.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text">Last updated 3 mins ago</p>
+                        </div>
+                    </div>
+                    <div class="col-6 d-flex flex-row-reverse card bg-dark text-white">
+                        <img src="./assets/images/card-img-3.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text">Last updated 3 mins ago</p>
+                        </div>
+                    </div>
+                    <div class="col-6 d-flex flex-row-reverse card bg-dark text-white">
+                        <img src="./assets/images/card-img-4.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text">Last updated 3 mins ago</p>
+                        </div>
+                    </div>
+                    <div class="col-6 d-flex flex-row-reverse card bg-dark text-white">
+                        <img src="./assets/images/card-img-5.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text">Last updated 3 mins ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact me -->
+        <section class="container d-flex align-items-start container-fluid">
+            <h2 class="col-4">Contact me</h2>
+            <div class="col-8">
+                <ul class="list-group list-group-horizontal flex-row-reverse">
+                    <li class="list-group-item"><a href="#">(555) 555-5555</a></li>
+                    <li class="list-group-item"><a href="#">bryan.types.code@gmail.com</a></li>
+                    <li class="list-group-item"><a href="https://github.com/brysgithub/brysgithub">Github</li>
+                    <li class="list-group-item"><a href="#">Resume</a></li>
+                </ul>
+            </div>
+        </section>
+
     </main>
+
     <!-- footer -->
-    <footer>
-      <div class="sig-box">
-        <p>&copy; 2021 Bryan Schenck</p>
-      </div>
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+          <span class="text-muted">&copy; 2021 Bryan Schenck</span>
+        </div>
     </footer>
 
     <!-- JS link Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+    </script>
+
+</body>
+
 </html>
